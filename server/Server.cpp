@@ -120,10 +120,10 @@ void Server::run()
             old_size_client=clients.size();
 
             //for linux
-            //system("clear");
+            std::system("clear");
 
             //for windows
-            system("cls");
+            //system("cls");
             std::cout<<"Local host:"<<sf::IpAddress::LocalHost<<"\n"
                 <<"Local: "<<sf::IpAddress::getLocalAddress()<<"\n"
                 <<"Public: "<<sf::IpAddress::getPublicAddress()<<"\n";
