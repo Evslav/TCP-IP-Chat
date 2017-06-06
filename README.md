@@ -48,3 +48,8 @@ g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./main.cpp ./ser
 ![](https://pp.userapi.com/c841024/v841024934/83/qcmPijQXMoo.jpg)
 ![](https://pp.userapi.com/c841024/v841024934/95/sJ1qUdssqwg.jpg)
 
+
+
+© Вячеслав Ефименков
+evslav@bk.ru
++7(910)398-37-54
