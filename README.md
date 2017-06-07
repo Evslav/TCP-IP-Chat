@@ -36,7 +36,12 @@ g++ ./server/Server.cpp ./server/Server.h ./server/server_main.cpp -o sfml-serve
 echo компиляция комбинорлванного приложения
 g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./main.cpp ./server/Server.cpp ./server/Server.h -o sfml-project -lsfml-system -lsfml-network -std=c++14
 ```
+### TO-DO
 
+ - Адаптировать для кросплатфоременного выполнения
+ - Makefile
+ - Написать отдельную программу для мониторинга онлайна
+ - QT GUI
 
 
 
