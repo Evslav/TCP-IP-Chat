@@ -26,15 +26,15 @@ sudo apt-get install libsfml-dev
 Для компиляции проекта можно использовать следующие команды
 ```sh
 echo компиляция клиентской части
-g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./client/client_main.cpp -o ./bin/sfml-client -lsfml-system -lsfml-network -std=c++14
+g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./client/client_main.cpp -o sfml-client -lsfml-system -lsfml-network -std=c++14
 ```
 ```sh
 echo компиляция серверной части
-g++ ./server/Server.cpp ./server/Server.h ./server/server_main.cpp -o ./bin/sfml-server -lsfml-system -lsfml-network -std=c++14
+g++ ./server/Server.cpp ./server/Server.h ./server/server_main.cpp -o sfml-server -lsfml-system -lsfml-network -std=c++14
 ```
 ```sh
 echo компиляция комбинорлванного приложения
-g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./main.cpp ./server/Server.cpp ./server/Server.h -o ./bin/sfml-project -lsfml-system -lsfml-network -std=c++14
+g++ ./client/Client.cpp ./client/Client.h ./client/PacketType.h ./main.cpp ./server/Server.cpp ./server/Server.h -o sfml-project -lsfml-system -lsfml-network -std=c++14
 ```
 
 
